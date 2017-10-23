@@ -1,0 +1,7 @@
+{
+  "name": "pplv-site",
+  "author": "Leo McArdle <leo.mcardle.17@ucl.ac.uk>",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  }
+}
