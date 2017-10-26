@@ -1,13 +1,39 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
 body {
   padding-top: 66px;
 }
 
+.research-used {
+  text-align: center;
+
+  ul {
+    padding: 0;
+    list-style: none;
+    font-size: 1.5em;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}
+
 .grants-received {
   text-align: center;
+
   span {
     display: block;
   }
+
   .line-2 {
     font-size: 0.5em;
   }
+
+  .line-3 {
+    font-size: 1.3em;
+  }
+}
+
+.subpage-links {
+  text-align: center;
+  font-size: 1.5em;
 }
