@@ -7,12 +7,16 @@ body {
 .research-used {
   text-align: center;
 
+  h2 {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+
   ul {
     padding: 0;
     list-style: none;
-    font-size: 1.5em;
     li {
-      margin-bottom: 5px;
+      margin: 3em;
     }
   }
 }
@@ -22,6 +26,10 @@ body {
 
   span {
     display: block;
+  }
+
+  .line-1 {
+    font-size: 0.75em;
   }
 
   .line-2 {
