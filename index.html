@@ -4,12 +4,40 @@
     <meta charset="utf-8">
     <title>Programming Principles, Logic and Verification</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
 
-      <nav class="navbar fixed-top navbar-dark bg-dark">
+      <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
         <a class="navbar-brand" href="/">Programming Principles, Logic and Verification</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Current & Future
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="current-future.html">Current & Future</a>
+                <a class="dropdown-item" href="maths.html">Mathematical Underpinnings</a>
+                <a class="dropdown-item" href="publications.html">Key Publications</a>
+                <a class="dropdown-item" href="researchers.html">Key Researchers</a>
+              </div>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <div class="row align-items-center">
